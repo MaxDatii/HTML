@@ -1,3 +1,15 @@
  .section_title {
      color: mediumvioletred;
  }
+ .left_col{
+     float: left;
+     width: 15%;
+ }
+ .right_col{
+     float: right;
+     width: 60%;
+
+ }
+ footer{
+     clear: both;
+ }

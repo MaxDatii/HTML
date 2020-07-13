@@ -96,5 +96,44 @@
     <p>Tip: Line flat cookie sheets with parchment for easy cleanup. Be sure to give the dropped dough plenty of air space,
            so the cookies won’t bump into each other as they spread.</p>
 
+    <h3 class="section_title">Subcscribe for new recepies:</h3>
+    <form action="authorization.php" method="post">
+      <input type="text" name="name" id="name" placeholder="Name">
+      <input type="email_address" name="email" id="email" placeholder="e-mail address">
+      <p>
+      <label>
+        <span>Additional Options:</span>
+        <input type="checkbox" name="extra" value="vegan" checked> Vegan Meals
+        <input type="checkbox" name="extra" value="meat"> Meat Meals
+        <input type="checkbox" name="extra" value="sweets" checked> Sweets Only
+      </label>
+      </p>
+      <div>
+        <label>
+          <span>Gender:</span>
+          <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="No answer">Don't want to answer</option>
+          </select>
+        </label>
+        <label>
+          <span>Age:</span>
+          <select name="age">
+            <option value="15-21">15 - 21</option>
+            <option value="22-30">22 - 30</option>
+            <option value="31-45">31 - 45</option>
+            <option value="46-60">46 - 60</option>
+            <option value="61-89">61 - 89</option>
+          </select>
+        </label>
+      </div>
+      <p>
+        <h3 class="section_title">How we can improve or service?</h3>
+          <textarea name="How we can improve our service" cols="30" rows="10" maxlength="100"></textarea>
+      </p>
+      <input type="submit" name="submit" id="submit">
+      <input type="reset" name="Reset" id="reset">
+    </form>
   </body>
 </html>

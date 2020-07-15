@@ -1,14 +1,18 @@
  .section_title {
-     color: mediumvioletred;
+     color: blue;
  }
+ .section_title2{
+     color:mediumvioletred;
+ }
+
+
  .left_col{
      float: left;
      width: 15%;
  }
  .right_col{
      float: right;
-     width: 60%;
-
+     width: 80%;
  }
  footer{
      clear: both;

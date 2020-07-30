@@ -76,11 +76,31 @@ html {
         " . flexbox ."
         ". google-text .";
     }
-    #logo {
+
+    .logofont {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 95px;
+    }
+    .G { color: dodgerblue;
+    }
+    .O { color: orangered;
+    }
+    .o { color: orange;
+    }
+    .g { color: dodgerblue;
+    }
+    .l { color: green;
+    }
+    .e { color: orangered;
+    }
+
+    /*#logo {
         grid-area: logo;
         justify-self: center;
         align-self: end;
     }
+     */
+
     #search {
         grid-area: search;
         height: 40px;

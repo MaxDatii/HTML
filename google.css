@@ -81,17 +81,13 @@ html {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 95px;
     }
-    .G { color: dodgerblue;
+    .dodgerblue { color: dodgerblue;
     }
-    .O { color: orangered;
+    .orangered { color: orangered;
     }
     .o { color: orange;
     }
-    .g { color: dodgerblue;
-    }
     .l { color: green;
-    }
-    .e { color: orangered;
     }
 
     /*#logo {
